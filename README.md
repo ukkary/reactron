@@ -1,11 +1,6 @@
 ## React + Typescript + Styled Component + Mobx Templates
 Simple and Clean Web+Electron Single Page Architecture
 
-### Initialize
-```
-$ npm install
-```
-
 ### Contains
 - [x] [React](https://facebook.github.io/react/) 
 - [x] [Mobx](https://github.com/mobxjs/mobx)
@@ -23,6 +18,10 @@ $ npm install
 - [x] [autobind-decorator](https://github.com/andreypopp/autobind-decorator)
 - [x] [tslint](https://palantir.github.io/tslint/)
 
+### Initialize
+```
+$ npm install
+```
 
 ### Run Web
 On your local, run
@@ -40,5 +39,5 @@ to build static scripts
 
 ## Run Electron
 ```
-$ electron dist/index.html
+$ electron electron.js
 ```
