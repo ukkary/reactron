@@ -4,7 +4,9 @@ import styled from 'styled-components';
 
 import Example from './organisms/Example';
 
-
+/**
+ * Index App
+ */
 export default class App extends React.Component {
   render() {
     return (

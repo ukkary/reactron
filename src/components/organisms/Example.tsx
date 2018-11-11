@@ -3,14 +3,16 @@ import { inject, observer } from 'mobx-react';
 import * as React from 'react';
 import styled from 'styled-components';
 
-import ExampleStore from '../../stores/ExampleStore';
+import rootStore, { RootStore } from '../../stores/RootStore';
 
 interface IProps {
-  exampleStore?: ExampleStore;
+  rootStore?: RootStore;
 };
 
-
-@inject('exampleStore') @observer
+/**
+ * Example Organisms
+ */
+@inject('rootStore') @observer
 export default class Example extends React.Component<IProps, {}> {
 
   constructor(props: IProps) {
@@ -20,7 +22,7 @@ export default class Example extends React.Component<IProps, {}> {
   public render(): JSX.Element {
     return (
       <>
-        <ExampleTitle>Hello World</ExampleTitle>
+        <ExampleTitle>Hello World{ rootStore!.exampleStore.doubleSampleNumber }</ExampleTitle>
       </>
     );
   }

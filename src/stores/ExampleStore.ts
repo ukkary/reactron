@@ -12,7 +12,7 @@ export default class ExampleStore {
   /**
    * Example for observable number
    */
-  @observable public sampleNumber: number = 0;
+  @observable public sampleNumber: number = 2;
 
   /**
    * Example for observable object

@@ -1,21 +1,19 @@
 
 import ExampleStore from './ExampleStore';
+import UserStore from './UserStore';
 
 /**
  * Root Store Class
  */
-export default class RootStore {
+export class RootStore {
   public exampleStore: ExampleStore;
+  public userStore: UserStore;
 
   constructor() {
     this.exampleStore = new ExampleStore();
-  }
-
-  public deleteStoresExceptPages() {
-    delete this.exampleStore;
+    this.userStore = new UserStore();
   }
 }
 
-export {
-  ExampleStore
-};
+const rootStore = new RootStore();
+export default rootStore;
