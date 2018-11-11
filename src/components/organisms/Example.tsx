@@ -3,6 +3,7 @@ import { inject, observer } from 'mobx-react';
 import * as React from 'react';
 import styled from 'styled-components';
 
+import * as constants from 'constants/example';
 import rootStore, { RootStore } from 'stores/RootStore';
 
 interface IProps {
@@ -22,7 +23,7 @@ export default class Example extends React.Component<IProps, {}> {
   public render(): JSX.Element {
     return (
       <>
-        <ExampleTitle>Hello World{ rootStore!.exampleStore.doubleSampleNumber }</ExampleTitle>
+        <ExampleTitle>{ constants.hello_world }{ rootStore!.exampleStore.doubleSampleNumber }</ExampleTitle>
       </>
     );
   }
@@ -31,4 +32,3 @@ export default class Example extends React.Component<IProps, {}> {
 const ExampleTitle = styled.h1`
   color: blue;
 `;
-
