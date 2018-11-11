@@ -7,7 +7,7 @@ import { IConfig } from 'config';
 
 const config: IConfig = {
   urls: {
-    api: "localhost:9000"
+    api: process.env.API_URL || ''
   }
 }
 

@@ -6,7 +6,7 @@ import { IConfig } from 'config';
  */
 const config: IConfig = {
   urls: {
-    api: ""
+    api: process.env.API_URL || ''
   }
 }
 

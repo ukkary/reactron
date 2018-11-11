@@ -5,9 +5,9 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production webpack",
-    "build:dev": "NODE_ENV=development webpack",
-    "start": "NODE_ENV=development webpack-dev-server"
+    "build": "NODE_ENV=production API_URL=localhost:9000 webpack",
+    "build:dev": "NODE_ENV=development API_URL=localhost:9000 webpack",
+    "start": "NODE_ENV=development API_URL=localhost:9000 webpack-dev-server"
   },
   "author": "ukkary",
   "license": "ISC",
