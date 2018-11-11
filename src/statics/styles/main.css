@@ -1,0 +1,77 @@
+
+html {
+  box-sizing: border-box;
+  cursor: auto;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, ヒラギノ角ゴ ProN W3, Hiragino Kaku Gothic ProN, メイリオ, Meiryo, sans-serif;
+
+  color: #000000;
+  font-size: 1.2em;
+  height: 100%;
+  line-height: 1;
+  overflow: hidden;
+}
+
+/* reset css */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+button,
+input,
+select,
+textarea,
+form {
+  border: none;
+  font-weight: inherit;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  border: none;
+  text-decoration: none;
+}
+
+/*
+ * ==================================
+ * Common Animation
+ * ==================================
+ */
+
+.common-hover {
+  transition: all 200ms ease;
+}
+
+.common-hover:hover {
+  opacity: 1;
+}
+
+.text-hover {
+  transition: all 200ms ease;
+}
+
+.text-hover:hover {
+  opacity: 0.8;
+}
+
+.common-transition,
+.common-transition::before,
+.common-transition::after {
+  transition: all 200ms ease;
+}

@@ -1,0 +1,38 @@
+{
+
+    // =================
+    // Editor
+    // ==================
+    "editor.tabSize": 2,
+
+    // 保存時の自動フォーマット
+    "editor.formatOnSave": false,
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    },
+
+    // ===========================
+    // ファイル形式の指定
+    // ===========================
+    "files.associations": {
+        "Dockerfile-*": "dockerfile",
+        "tslint.json": "jsonc",
+        "Vagrantfile": "shellscript",
+        ".stylelintrc": "json"
+    },
+
+    // ================================
+    // TypeScript
+    // ================================
+    // ローカルのTypeScriptを参照
+    "typescript.tsdk": "node_modules/typescript/lib",
+
+    // JSX 式の始め波かっこの後と終わり波かっこの前のスペース処理を定義します。TypeScript が 2.0.6 以上である必要があります。
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+
+    // テンプレート文字列の始め波かっこの後と終わり波かっこの前のスペース処理を定義します。TypeScript が 2.0.6 以上である必要があります。
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true
+}

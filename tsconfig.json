@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "jsx": "react",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["*"]
+    },
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "pretty": true,
+    // ================
+    // Plugins
+    // ================
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "compatibleVendorPrefixes": "error",
+          "float": "error",
+          "idSelector": "error",
+          "importStatement": "warn",
+          "important": "error",
+          "unknownVendorSpecificProperties": "error",
+          "zeroUnits": "error"
+        }
+      }
+    ],
+    // ================
+    // Code options
+    // ================
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
