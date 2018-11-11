@@ -1,6 +1,6 @@
 import { action, computed, observable, runInAction } from 'mobx';
 
-import examplesApis from '../apis/example';
+import examplesApis from 'apis/example';
 
 interface ISampleObject {
   name?: string;

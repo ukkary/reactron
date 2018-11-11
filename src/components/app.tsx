@@ -2,7 +2,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-import Example from './organisms/Example';
+import Example from 'components/organisms/Example';
 
 /**
  * Index App

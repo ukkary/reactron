@@ -1,6 +1,6 @@
 
-import ExampleStore from './ExampleStore';
-import UserStore from './UserStore';
+import ExampleStore from 'stores/ExampleStore';
+import UserStore from 'stores/UserStore';
 
 /**
  * Root Store Class

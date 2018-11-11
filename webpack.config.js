@@ -35,7 +35,11 @@ const config = {
   },
 
   resolve: {
-    extensions: ['.js', '.ts', '.tsx']
+    modules: [sourcePath, 'node_modules'],
+    extensions: ['.js', '.ts', '.tsx'],
+    alias: {
+      reducer: sourcePath
+    }
   },
 
   plugins: [

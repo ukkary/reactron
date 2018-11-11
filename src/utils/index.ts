@@ -1,4 +1,4 @@
-import * as keyboards from './keyboard';
+import * as keyboards from 'utils/keyboard';
 
 export default {
   keyboards
