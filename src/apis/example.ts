@@ -1,10 +1,12 @@
+
 import axios from 'axios';
+import config from 'config';
 
 const examplesApis = {
   async getSomeData() {
     return axios({
       method: 'get',
-      url: `http://localhost`,
+      url: `${ config.urls }/something`,
       params: {}
     });
   },
@@ -12,7 +14,7 @@ const examplesApis = {
   async postSomeData() {
     return axios({
       method: 'post',
-      url: `http://localhost`,
+      url: `${ config.urls }/something`,
       params: {}
     });
   },
