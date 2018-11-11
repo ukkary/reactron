@@ -6,6 +6,7 @@ import UserStore from 'stores/UserStore';
  * Root Store Class
  */
 export class RootStore {
+
   public exampleStore: ExampleStore;
   public userStore: UserStore;
 

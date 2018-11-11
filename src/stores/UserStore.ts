@@ -1,3 +1,4 @@
+
 import { observable } from 'mobx';
 
 interface IUser {
@@ -13,5 +14,4 @@ export default class UserStore {
   @observable public user: IUser = {
     id: null
   }
-
 }
