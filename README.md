@@ -1,18 +1,18 @@
-# React + Typescript + Mobx Templates
+## React + Typescript + Mobx Templates
 Simple and Clean Web+Electron Architecture
 
-# Current Builds Environment
+## Current Builds Environment
 ```
 npm 6.4.1
 node v9.11.2
 ```
 
-# Init
+## Initialize
 ```
 npm install
 ```
 
-# Run Web
+## Run Web
 On your local, run
 ```
 npm run start
@@ -26,7 +26,7 @@ npm run build
 ```
 to build static scripts
 
-# Run Electron
+## Run Electron
 ```
 electron dist/index.html
 ```
