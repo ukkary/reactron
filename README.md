@@ -1,5 +1,6 @@
 ## React + Typescript + Styled Component + Mobx Templates
 Simple and Clean Web+Electron Single Page Architecture
+with Atomic Design
 
 ### Contains
 - [x] [React](https://facebook.github.io/react/) 
